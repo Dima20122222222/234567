@@ -1,0 +1,25 @@
+.maine-title {
+    color: cyan;
+    text-align: center;
+}
+
+.dogs-item {
+    width: 200px;
+    height: 150px;
+    border: 2px dashed coral;
+    background-image: url(./images/dogs.jpg);
+    background-size: cover;
+    padding-top: 30px;
+}
+
+.dogs-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+
+.dogs-name {
+    color: aqua;
+    font-size: 40px;
+}
